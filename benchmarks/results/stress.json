@@ -1,0 +1,28 @@
+{
+  "kind": "simulated-only",
+  "node": "v24.19.0",
+  "date": "2026-10-20T20:08:15.652Z",
+  "events": 1000000,
+  "received": 1000000,
+  "shards": 8,
+  "eventMs": 3172.4701999999997,
+  "eventsPerSecond": 315211.7867017317,
+  "cache": {
+    "messages": 2000,
+    "users": 1000
+  },
+  "restRequests": 20000,
+  "restMs": 450.71929999999975,
+  "cpu": {
+    "user": 3781000,
+    "system": 156000
+  },
+  "eventLoop": {
+    "meanMs": 31.530511515151517,
+    "p99Ms": 47.546367,
+    "maxMs": 50.167807
+  },
+  "peakRss": 267538432,
+  "peakHeap": 117899168,
+  "memorySamples": 100
+}

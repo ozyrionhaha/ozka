@@ -1,0 +1,725 @@
+{
+  "environment": {
+    "date": "2026-10-20T20:01:02.764Z",
+    "node": "v24.19.0",
+    "platform": "win32",
+    "arch": "x64",
+    "cpu": "Intel(R) Core(TM) i5-14400F",
+    "logicalCores": 16,
+    "totalMemory": 34138931200,
+    "repetitions": 3
+  },
+  "results": [
+    {
+      "round": 0,
+      "runtime": {
+        "name": "ozka.js",
+        "version": "0.1.0-alpha.1",
+        "startupMs": 14.2151,
+        "idleRss": 64933888,
+        "idleHeap": 5701992,
+        "heapDelta": 513808,
+        "dispatch": {
+          "eventsPerBlock": 200000,
+          "blocks": 10,
+          "p50Ns": 13.134000000000015,
+          "p95Ns": 28.14000000000007,
+          "cpu": {
+            "user": 47000,
+            "system": 0
+          },
+          "sink": 6060000
+        },
+        "syntheticParseEmit": {
+          "p50Us": 0.6999999999948159,
+          "p95Us": 0.9000000000014552,
+          "p99Us": 1.4000000000180535
+        },
+        "boundedCache": {
+          "operations": 200000,
+          "ms": 31.984100000000012,
+          "hits": 139902,
+          "entries": 1000
+        },
+        "sampledAllocations": {
+          "events": 50000,
+          "estimatedBytes": 13085856,
+          "sampleCount": 12495,
+          "method": "V8 sampling heap profiler; statistical estimates, not exact allocations"
+        }
+      },
+      "rest": {
+        "name": "ozka.js",
+        "version": "0.1.0-alpha.1",
+        "startupMs": 13.247299999999996,
+        "idleRss": 65052672,
+        "idleHeap": 5701920,
+        "heapDelta": 513968,
+        "rest": {
+          "requests": 200,
+          "p50Ms": 15.295100000000048,
+          "p95Ms": 16.079000000000065,
+          "p99Ms": 16.47180000000003,
+          "cpu": {
+            "user": 110000,
+            "system": 0
+          }
+        }
+      }
+    },
+    {
+      "round": 0,
+      "runtime": {
+        "name": "discord.js",
+        "version": "14.27.0",
+        "startupMs": 405.0509,
+        "idleRss": 98926592,
+        "idleHeap": 18418192,
+        "heapDelta": 13230160,
+        "dispatch": {
+          "eventsPerBlock": 200000,
+          "blocks": 10,
+          "p50Ns": 19.748500000000035,
+          "p95Ns": 33.840999999999894,
+          "cpu": {
+            "user": 31000,
+            "system": 15000
+          },
+          "sink": 6060000
+        },
+        "syntheticParseEmit": {
+          "p50Us": 0.7000000000516593,
+          "p95Us": 1.099999999951251,
+          "p99Us": 1.4999999999645297
+        },
+        "boundedCache": {
+          "operations": 200000,
+          "ms": 31.872299999999996,
+          "hits": 139902,
+          "entries": 1000
+        },
+        "sampledAllocations": {
+          "events": 50000,
+          "estimatedBytes": 13133528,
+          "sampleCount": 12532,
+          "method": "V8 sampling heap profiler; statistical estimates, not exact allocations"
+        }
+      },
+      "rest": {
+        "name": "discord.js",
+        "version": "14.27.0",
+        "startupMs": 380.5361,
+        "idleRss": 99377152,
+        "idleHeap": 18418288,
+        "heapDelta": 13230328,
+        "rest": {
+          "requests": 200,
+          "p50Ms": 0.46860000000003765,
+          "p95Ms": 0.768699999999626,
+          "p99Ms": 1030.1996,
+          "cpu": {
+            "user": 78000,
+            "system": 32000
+          }
+        }
+      }
+    },
+    {
+      "round": 0,
+      "runtime": {
+        "name": "eris",
+        "version": "0.18.0",
+        "startupMs": 63.0313,
+        "idleRss": 70594560,
+        "idleHeap": 7790552,
+        "heapDelta": 2602600,
+        "dispatch": {
+          "eventsPerBlock": 200000,
+          "blocks": 10,
+          "p50Ns": 19.34650000000005,
+          "p95Ns": 32.72099999999995,
+          "cpu": {
+            "user": 46000,
+            "system": 0
+          },
+          "sink": 6060000
+        },
+        "syntheticParseEmit": {
+          "p50Us": 0.7000000000232376,
+          "p95Us": 1.3999999999896318,
+          "p99Us": 1.6999999999995907
+        },
+        "boundedCache": {
+          "operations": 200000,
+          "ms": 29.86020000000002,
+          "hits": 139902,
+          "entries": 1000
+        },
+        "sampledAllocations": {
+          "events": 50000,
+          "estimatedBytes": 13297872,
+          "sampleCount": 12690,
+          "method": "V8 sampling heap profiler; statistical estimates, not exact allocations"
+        }
+      },
+      "rest": {
+        "name": "eris",
+        "version": "0.18.0",
+        "startupMs": 60.0425,
+        "idleRss": 70799360,
+        "idleHeap": 7775136,
+        "heapDelta": 2587024,
+        "rest": {
+          "requests": 200,
+          "p50Ms": 0.3569999999999993,
+          "p95Ms": 0.509600000000006,
+          "p99Ms": 0.6180999999999983,
+          "cpu": {
+            "user": 47000,
+            "system": 0
+          }
+        }
+      }
+    },
+    {
+      "round": 0,
+      "runtime": {
+        "name": "oceanic.js",
+        "version": "1.15.0",
+        "startupMs": 186.31369999999998,
+        "idleRss": 83591168,
+        "idleHeap": 14813376,
+        "heapDelta": 9625416,
+        "dispatch": {
+          "eventsPerBlock": 200000,
+          "blocks": 10,
+          "p50Ns": 35.31800000000004,
+          "p95Ns": 49.69449999999994,
+          "cpu": {
+            "user": 94000,
+            "system": 0
+          },
+          "sink": 6060000
+        },
+        "syntheticParseEmit": {
+          "p50Us": 0.7999999999697138,
+          "p95Us": 1.0000000000331966,
+          "p99Us": 1.8000000000029104
+        },
+        "boundedCache": {
+          "operations": 200000,
+          "ms": 28.110300000000052,
+          "hits": 139902,
+          "entries": 1000
+        },
+        "sampledAllocations": {
+          "events": 50000,
+          "estimatedBytes": 13590784,
+          "sampleCount": 12973,
+          "method": "V8 sampling heap profiler; statistical estimates, not exact allocations"
+        }
+      },
+      "rest": {
+        "name": "oceanic.js",
+        "version": "1.15.0",
+        "startupMs": 183.7296,
+        "idleRss": 84008960,
+        "idleHeap": 14811712,
+        "heapDelta": 9623592,
+        "rest": {
+          "requests": 200,
+          "p50Ms": 15.402099999999791,
+          "p95Ms": 16.302500000000236,
+          "p99Ms": 16.78760000000011,
+          "cpu": {
+            "user": 109000,
+            "system": 0
+          }
+        }
+      }
+    },
+    {
+      "round": 1,
+      "runtime": {
+        "name": "discord.js",
+        "version": "14.27.0",
+        "startupMs": 400.4918,
+        "idleRss": 99495936,
+        "idleHeap": 18418008,
+        "heapDelta": 13230048,
+        "dispatch": {
+          "eventsPerBlock": 200000,
+          "blocks": 10,
+          "p50Ns": 18.965499999999906,
+          "p95Ns": 32.321000000000026,
+          "cpu": {
+            "user": 47000,
+            "system": 15000
+          },
+          "sink": 6060000
+        },
+        "syntheticParseEmit": {
+          "p50Us": 0.8000000000265572,
+          "p95Us": 1.3999999999896318,
+          "p99Us": 1.6000000000531145
+        },
+        "boundedCache": {
+          "operations": 200000,
+          "ms": 30.434599999999932,
+          "hits": 139902,
+          "entries": 1000
+        },
+        "sampledAllocations": {
+          "events": 50000,
+          "estimatedBytes": 13206064,
+          "sampleCount": 12601,
+          "method": "V8 sampling heap profiler; statistical estimates, not exact allocations"
+        }
+      },
+      "rest": {
+        "name": "discord.js",
+        "version": "14.27.0",
+        "startupMs": 397.98240000000004,
+        "idleRss": 98963456,
+        "idleHeap": 18417568,
+        "heapDelta": 13229448,
+        "rest": {
+          "requests": 200,
+          "p50Ms": 0.4331999999999425,
+          "p95Ms": 1.036899999999946,
+          "p99Ms": 1040.3678,
+          "cpu": {
+            "user": 78000,
+            "system": 93000
+          }
+        }
+      }
+    },
+    {
+      "round": 1,
+      "runtime": {
+        "name": "eris",
+        "version": "0.18.0",
+        "startupMs": 63.9938,
+        "idleRss": 70549504,
+        "idleHeap": 7790504,
+        "heapDelta": 2602392,
+        "dispatch": {
+          "eventsPerBlock": 200000,
+          "blocks": 10,
+          "p50Ns": 20.980999999999877,
+          "p95Ns": 36.08699999999999,
+          "cpu": {
+            "user": 31000,
+            "system": 32000
+          },
+          "sink": 6060000
+        },
+        "syntheticParseEmit": {
+          "p50Us": 0.6999999999948159,
+          "p95Us": 1.0000000000047748,
+          "p99Us": 1.6999999999995907
+        },
+        "boundedCache": {
+          "operations": 200000,
+          "ms": 30.323700000000002,
+          "hits": 139902,
+          "entries": 1000
+        },
+        "sampledAllocations": {
+          "events": 50000,
+          "estimatedBytes": 13217696,
+          "sampleCount": 12613,
+          "method": "V8 sampling heap profiler; statistical estimates, not exact allocations"
+        }
+      },
+      "rest": {
+        "name": "eris",
+        "version": "0.18.0",
+        "startupMs": 59.136599999999994,
+        "idleRss": 70807552,
+        "idleHeap": 7790088,
+        "heapDelta": 2601976,
+        "rest": {
+          "requests": 200,
+          "p50Ms": 0.30510000000001014,
+          "p95Ms": 0.4356999999999971,
+          "p99Ms": 0.5726999999999975,
+          "cpu": {
+            "user": 31000,
+            "system": 0
+          }
+        }
+      }
+    },
+    {
+      "round": 1,
+      "runtime": {
+        "name": "oceanic.js",
+        "version": "1.15.0",
+        "startupMs": 193.75119999999998,
+        "idleRss": 83742720,
+        "idleHeap": 14813560,
+        "heapDelta": 9625600,
+        "dispatch": {
+          "eventsPerBlock": 200000,
+          "blocks": 10,
+          "p50Ns": 34.3040000000002,
+          "p95Ns": 54.35149999999994,
+          "cpu": {
+            "user": 62000,
+            "system": 16000
+          },
+          "sink": 6060000
+        },
+        "syntheticParseEmit": {
+          "p50Us": 0.7999999999697138,
+          "p95Us": 0.9999999999763531,
+          "p99Us": 1.8000000000029104
+        },
+        "boundedCache": {
+          "operations": 200000,
+          "ms": 29.25419999999997,
+          "hits": 139902,
+          "entries": 1000
+        },
+        "sampledAllocations": {
+          "events": 50000,
+          "estimatedBytes": 13553912,
+          "sampleCount": 12936,
+          "method": "V8 sampling heap profiler; statistical estimates, not exact allocations"
+        }
+      },
+      "rest": {
+        "name": "oceanic.js",
+        "version": "1.15.0",
+        "startupMs": 186.0584,
+        "idleRss": 83755008,
+        "idleHeap": 14813224,
+        "heapDelta": 9625264,
+        "rest": {
+          "requests": 200,
+          "p50Ms": 15.236199999999826,
+          "p95Ms": 16.20690000000002,
+          "p99Ms": 16.547100000000228,
+          "cpu": {
+            "user": 203000,
+            "system": 32000
+          }
+        }
+      }
+    },
+    {
+      "round": 1,
+      "runtime": {
+        "name": "ozka.js",
+        "version": "0.1.0-alpha.1",
+        "startupMs": 14.887499999999996,
+        "idleRss": 64995328,
+        "idleHeap": 5701920,
+        "heapDelta": 513968,
+        "dispatch": {
+          "eventsPerBlock": 200000,
+          "blocks": 10,
+          "p50Ns": 13.227499999999994,
+          "p95Ns": 20.682999999999936,
+          "cpu": {
+            "user": 47000,
+            "system": 0
+          },
+          "sink": 6060000
+        },
+        "syntheticParseEmit": {
+          "p50Us": 0.6999999999948159,
+          "p95Us": 0.7999999999981355,
+          "p99Us": 0.9000000000014552
+        },
+        "boundedCache": {
+          "operations": 200000,
+          "ms": 30.508099999999985,
+          "hits": 139902,
+          "entries": 1000
+        },
+        "sampledAllocations": {
+          "events": 50000,
+          "estimatedBytes": 13470328,
+          "sampleCount": 12864,
+          "method": "V8 sampling heap profiler; statistical estimates, not exact allocations"
+        }
+      },
+      "rest": {
+        "name": "ozka.js",
+        "version": "0.1.0-alpha.1",
+        "startupMs": 13.299399999999999,
+        "idleRss": 65150976,
+        "idleHeap": 5701920,
+        "heapDelta": 513968,
+        "rest": {
+          "requests": 200,
+          "p50Ms": 15.385099999999966,
+          "p95Ms": 16.133800000000065,
+          "p99Ms": 16.449299999999766,
+          "cpu": {
+            "user": 266000,
+            "system": 32000
+          }
+        }
+      }
+    },
+    {
+      "round": 2,
+      "runtime": {
+        "name": "eris",
+        "version": "0.18.0",
+        "startupMs": 61.57430000000001,
+        "idleRss": 71282688,
+        "idleHeap": 7790216,
+        "heapDelta": 2602104,
+        "dispatch": {
+          "eventsPerBlock": 200000,
+          "blocks": 10,
+          "p50Ns": 21.204000000000036,
+          "p95Ns": 44.298,
+          "cpu": {
+            "user": 32000,
+            "system": 16000
+          },
+          "sink": 6060000
+        },
+        "syntheticParseEmit": {
+          "p50Us": 0.6999999999948159,
+          "p95Us": 1.0000000000047748,
+          "p99Us": 1.599999999996271
+        },
+        "boundedCache": {
+          "operations": 200000,
+          "ms": 30.147099999999995,
+          "hits": 139902,
+          "entries": 1000
+        },
+        "sampledAllocations": {
+          "events": 50000,
+          "estimatedBytes": 13364768,
+          "sampleCount": 12753,
+          "method": "V8 sampling heap profiler; statistical estimates, not exact allocations"
+        }
+      },
+      "rest": {
+        "name": "eris",
+        "version": "0.18.0",
+        "startupMs": 58.354800000000004,
+        "idleRss": 70664192,
+        "idleHeap": 7789832,
+        "heapDelta": 2601720,
+        "rest": {
+          "requests": 200,
+          "p50Ms": 0.3091000000000008,
+          "p95Ms": 0.44299999999998363,
+          "p99Ms": 0.5532000000000039,
+          "cpu": {
+            "user": 31000,
+            "system": 16000
+          }
+        }
+      }
+    },
+    {
+      "round": 2,
+      "runtime": {
+        "name": "oceanic.js",
+        "version": "1.15.0",
+        "startupMs": 182.2475,
+        "idleRss": 84283392,
+        "idleHeap": 14813752,
+        "heapDelta": 9625632,
+        "dispatch": {
+          "eventsPerBlock": 200000,
+          "blocks": 10,
+          "p50Ns": 38.52699999999999,
+          "p95Ns": 48.61249999999984,
+          "cpu": {
+            "user": 94000,
+            "system": 0
+          },
+          "sink": 6060000
+        },
+        "syntheticParseEmit": {
+          "p50Us": 0.6999999999948159,
+          "p95Us": 0.9000000000014552,
+          "p99Us": 1.699999999971169
+        },
+        "boundedCache": {
+          "operations": 200000,
+          "ms": 27.83159999999998,
+          "hits": 139902,
+          "entries": 1000
+        },
+        "sampledAllocations": {
+          "events": 50000,
+          "estimatedBytes": 13472848,
+          "sampleCount": 12861,
+          "method": "V8 sampling heap profiler; statistical estimates, not exact allocations"
+        }
+      },
+      "rest": {
+        "name": "oceanic.js",
+        "version": "1.15.0",
+        "startupMs": 180.6834,
+        "idleRss": 83914752,
+        "idleHeap": 14813888,
+        "heapDelta": 9625928,
+        "rest": {
+          "requests": 200,
+          "p50Ms": 15.300899999999956,
+          "p95Ms": 16.111499999999978,
+          "p99Ms": 16.63440000000037,
+          "cpu": {
+            "user": 125000,
+            "system": 15000
+          }
+        }
+      }
+    },
+    {
+      "round": 2,
+      "runtime": {
+        "name": "ozka.js",
+        "version": "0.1.0-alpha.1",
+        "startupMs": 14.5454,
+        "idleRss": 64966656,
+        "idleHeap": 5701920,
+        "heapDelta": 513968,
+        "dispatch": {
+          "eventsPerBlock": 200000,
+          "blocks": 10,
+          "p50Ns": 12.913500000000084,
+          "p95Ns": 30.77300000000001,
+          "cpu": {
+            "user": 47000,
+            "system": 0
+          },
+          "sink": 6060000
+        },
+        "syntheticParseEmit": {
+          "p50Us": 0.6999999999948159,
+          "p95Us": 0.7999999999981355,
+          "p99Us": 1.1000000000080945
+        },
+        "boundedCache": {
+          "operations": 200000,
+          "ms": 30.194500000000005,
+          "hits": 139902,
+          "entries": 1000
+        },
+        "sampledAllocations": {
+          "events": 50000,
+          "estimatedBytes": 13388768,
+          "sampleCount": 12786,
+          "method": "V8 sampling heap profiler; statistical estimates, not exact allocations"
+        }
+      },
+      "rest": {
+        "name": "ozka.js",
+        "version": "0.1.0-alpha.1",
+        "startupMs": 13.519999999999996,
+        "idleRss": 65261568,
+        "idleHeap": 5701920,
+        "heapDelta": 513968,
+        "rest": {
+          "requests": 200,
+          "p50Ms": 15.31690000000026,
+          "p95Ms": 16.13239999999996,
+          "p99Ms": 16.456999999999994,
+          "cpu": {
+            "user": 172000,
+            "system": 0
+          }
+        }
+      }
+    },
+    {
+      "round": 2,
+      "runtime": {
+        "name": "discord.js",
+        "version": "14.27.0",
+        "startupMs": 403.0348,
+        "idleRss": 99078144,
+        "idleHeap": 18418240,
+        "heapDelta": 13230120,
+        "dispatch": {
+          "eventsPerBlock": 200000,
+          "blocks": 10,
+          "p50Ns": 21.92099999999982,
+          "p95Ns": 35.227499999999736,
+          "cpu": {
+            "user": 31000,
+            "system": 31000
+          },
+          "sink": 6060000
+        },
+        "syntheticParseEmit": {
+          "p50Us": 0.7000000000516593,
+          "p95Us": 0.9000000000014552,
+          "p99Us": 1.4000000001033186
+        },
+        "boundedCache": {
+          "operations": 200000,
+          "ms": 30.280700000000024,
+          "hits": 139902,
+          "entries": 1000
+        },
+        "sampledAllocations": {
+          "events": 50000,
+          "estimatedBytes": 13287792,
+          "sampleCount": 12681,
+          "method": "V8 sampling heap profiler; statistical estimates, not exact allocations"
+        }
+      },
+      "rest": {
+        "name": "discord.js",
+        "version": "14.27.0",
+        "startupMs": 383.1077,
+        "idleRss": 99033088,
+        "idleHeap": 18417992,
+        "heapDelta": 13229872,
+        "rest": {
+          "requests": 200,
+          "p50Ms": 0.4313000000001921,
+          "p95Ms": 1.4226999999991676,
+          "p99Ms": 1034.7917,
+          "cpu": {
+            "user": 94000,
+            "system": 15000
+          }
+        }
+      }
+    }
+  ],
+  "ozkaOnly": {
+    "renderer": {
+      "frames": 30,
+      "width": 1100,
+      "height": 680,
+      "p50Ms": 50.61959999999817,
+      "p95Ms": 57.710400000003574,
+      "p99Ms": 58.743799999996554
+    },
+    "gateway": {
+      "frames": 100000,
+      "p50Us": 0.8999999990919605,
+      "p95Us": 1.4999999984866008,
+      "p99Us": 2.2000000026309863
+    }
+  },
+  "limitations": [
+    "All workloads are simulated or loopback; no Discord API calls or login.",
+    "Public emitter and JSON parse+emit timings do not exercise competitors’ full Gateway processing pipelines.",
+    "Startup is dynamic import + construction in a fresh process with warm OS filesystem caches; clients never connect.",
+    "Idle memory is sampled before connection; caches and runtime states differ.",
+    "Allocation bytes are V8 sampling estimates, not exact counts.",
+    "Cache adapters enforce the same LRU policy around Map-compatible collections; this is not a comparison of entity hydration or default cache policies.",
+    "HTTPS latency includes local TCP/TLS/JSON and server costs; it is not pure REST overhead. Eris uses an agent that redirects only the connection port to the loopback listener.",
+    "UI rendering and internal Gateway receive are Ozka-only because competitors do not expose equivalent public render APIs.",
+    "Three rounds are a local smoke benchmark, not evidence for broad performance or production-scale claims."
+  ]
+}
